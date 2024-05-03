@@ -15,6 +15,14 @@
         "skills" : ["HTML", "CSS","Javascript","react"],
         "demo" : "",
         "source" : "https://github.com/sonirista/screen-recorder"
+    },
+    {
+        "title" : "Screen Capture",
+        "imageSrc" : "projects/project.png",
+        "description" : "this is project to learn basic react with  html , css and Javascript",
+        "skills" : ["HTML", "CSS","Javascript","react"],
+        "demo" : "",
+        "source" : "https://github.com/sonirista/Screen-Capture"
     }
 
 ]
