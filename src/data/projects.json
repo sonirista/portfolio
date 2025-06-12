@@ -1,8 +1,16 @@
 [
     {
+        "title" : "Blinkit",
+        "imageSrc" : "projects/project.png",
+        "description" : "A full-stack grocery delivery clone built using React, Node.js, Express, and MongoDB. Features user authentication, cart management, and responsive UI for seamless user experience.",
+        "skills" : ["react","NodeJs","ExpressJs","MongoDb"],
+        "demo" : "",
+        "source" : "https://github.com/sonirista/Blinkit-Full-Stack"
+    },
+    {
         "title" : "Code Editor",
         "imageSrc" : "projects/project.png",
-        "description" : "this is project to learn basic react with  html , css and Javascript",
+        "description" : "A browser-based code editor that supports HTML, CSS, and JavaScript. Allows users to write, preview, and test code in real-time with a clean and intuitive interface",
         "skills" : ["HTML", "CSS","Javascript","react"],
         "demo" : "",
         "source" : "https://github.com/sonirista/Code-Editor"
@@ -11,7 +19,7 @@
     {
         "title" : "Screen Recorder",
         "imageSrc" : "projects/project.png",
-        "description" : "this is project to learn basic react with  html , css and Javascript",
+        "description" : "A simple yet effective screen recording web application built with React. Enables users to record their screen activities and download the recording in video format.",
         "skills" : ["HTML", "CSS","Javascript","react"],
         "demo" : "",
         "source" : "https://github.com/sonirista/screen-recorder"
@@ -19,7 +27,7 @@
     {
         "title" : "Screen Capture",
         "imageSrc" : "projects/project.png",
-        "description" : "this is project to learn basic react with  html , css and Javascript",
+        "description" : "A React-based utility that allows users to take high-quality screenshots of their screen directly from the browser with customizable capture settings.",
         "skills" : ["HTML", "CSS","Javascript","react"],
         "demo" : "",
         "source" : "https://github.com/sonirista/Screen-Capture"

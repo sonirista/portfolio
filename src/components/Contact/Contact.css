@@ -1,55 +1,87 @@
-.footer{
-    color: #fff;
-    margin-top: 70px;
-    background-color: #19376d;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.footer {
     width: 100%;
-    padding: 58px 10%;
-    gap: 10px;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: #fff;
+    text-align: center;
+     margin-top: 60px;
+
+    /* Full-width: remove fixed width and rounding */
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.5);
 }
-.footerText h2{
-    font-size: 60px;
-    letter-spacing: 4px;
-    font-weight: 700;
-}
-.footerText p{
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-.footerLinks{
+
+.contactContainer {
+    max-width: 1100px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    list-style: none;
-    gap: 26px;
+    gap: 2.5rem;
 }
-.footerLink{
+
+.contactIntro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+    letter-spacing: 1.5px;
+}
+
+.contactIntro p {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    letter-spacing: 1px;
+}
+
+.contactLinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contactItem {
     display: flex;
     align-items: center;
-    gap: 25px;
-}
-.footerLink a{
-    color: #fff;
+    gap: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 12px 24px;
+    border-radius: 10px;
     text-decoration: none;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
-@media screen and (max-width: 830px) {
-    .footer{
-        flex-direction: column;
-        gap: 23px;
+
+.contactItem:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.contactItem img {
+    width: 28px;
+    height: 28px;
+    filter: brightness(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .contactIntro h2 {
+        font-size: 2rem;
     }
-    .footerText{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
+    .contactIntro p {
+        font-size: 0.95rem;
     }
-    .footerLinks{
-        align-items: center;
+
+    .contactItem {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .contactItem img {
+        width: 24px;
+        height: 24px;
     }
 }

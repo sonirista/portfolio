@@ -8,6 +8,11 @@
         "imageSrc": "skills/css.png"
     },
     {
+        "title": "Tailwind Css",
+        "imageSrc": "skills/tailwindCss.png"
+    },
+    
+    {
         "title": "Java Script",
         "imageSrc": "skills/Js.png"
     },
@@ -20,7 +25,15 @@
         "imageSrc": "skills/node.png"
     },
     {
+        "title": "Express Js",
+        "imageSrc": "skills/express.png"
+    },
+    {
         "title": "MongoDB",
         "imageSrc": "skills/mongodb.png"
+    },
+     {
+        "title": "Mysql",
+        "imageSrc": "skills/mysql.png"
     }
 ]

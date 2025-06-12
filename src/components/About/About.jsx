@@ -13,22 +13,22 @@ export const About = () => {
                     <li className="aboutItem">
                         <img src={getImageUrl("about/cursorIcon.png")} alt="cursor Icon" />
                         <div className="aboutItemText">
-                            <h3>Frontend Developer</h3>
-                            <p>I'm a frontend developer with experience in building responsive and optmized sites.</p>
+                            <h3>Crafting Beautiful Interfaces</h3>
+                            <p>I specialize in building sleek, responsive user interfaces using modern frontend technologies like React, ensuring smooth user experiences across all devices.</p>
                         </div>
                     </li>
                     <li className="aboutItem">
                         <img src={getImageUrl("about/serverIcon.png")} alt="server Icon" />
                         <div className="aboutItemText">
-                            <h3>Backend Developer</h3>
-                            <p>I have experience developing and optmised back-end systems and APIs.</p>
+                            <h3>Building Robust Backends</h3>
+                            <p>I design and develop scalable backend systems and APIs using Node.js and Express, focusing on performance, security, and maintainability.</p>
                         </div>
                     </li>
                     <li className="aboutItem"> 
                         <img src={getImageUrl("about/cursorIcon.png")} alt="UI Icon" />
                         <div className="aboutItemText">
-                            <h3>UI Designer</h3>
-                            <p>I have designed multiple landing pages and created design systems as well.</p>
+                            <h3>Designing Thoughtful Experiences</h3>
+                            <p>My design work focuses on user-centered interfaces — from wireframes to final designs — ensuring functionality meets aesthetics seamlessly.</p>
                         </div>
                     </li>
 

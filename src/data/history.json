@@ -1,28 +1,19 @@
 [
     {
-        "role": "QA Enginner",
-        "organisation": "Paytm",
-        "startDate": "Sept, 2021",
-        "endDate": "jun, 2022",
+        "role": "Mern Stack Developer",
+        "organisation": "SEdots Info Tech P Ltd",
+        "startDate": "OCT, 2024",
         "experiences": [
-            "Performing Regression Testing on both Android & IOS app ",
-            "Functional testing of new features by analyzing product notes and Jira task",
-            "Involved in meeting with Devteam for quicker solution to blockers",
-            "Creating build for Android/IOS using Jenkins integration"
-        ],
-        "imageSrc": "history/paytm.png"
-    },
-    {
-        "role": "Associate Software Enginner",
-        "organisation": "Kuncham Software Solution",
-        "startDate": "Feb, 2020",
-        "endDate": "Sept, 2021",
-        "experiences": [
-            "Wrote and executed manual tests utilizing meticulous attention to details",
-            "Maintained and created product knowledge documentation for use with-in the test team",
-            "Designed product-changing software improvements basedon test run results and client feedback"
-        ],
-        "imageSrc": "history/kuncham.png"
+             "Developed a full-stack Nursery Management App with role-based access (Admin/User) using React for the frontend and Node.js with Express for the backend.",
+             "Implemented dynamic forms to handle nursery operations such as Sproutes Entry, Irrigation, Chemical Usage, and Weeding Activities.",
+             "Created and managed RESTful APIs for all CRUD operations and integrated them with the frontend using Axios.",
+             "Designed MongoDB schemas to store form data, user roles, and activity logs with Mongoose for easy query handling.",
+             "Built a secure login system using JWT authentication and protected routes for user-specific access.",
+             "Enabled users to view and edit historical records using date filters and form controls.",
+             "Maintained clean UI using React and ensured responsiveness across devices."
+        ]
+       
     }
+   
 
 ]

@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     position: relative;
     display: flex;
     align-items: center;
@@ -7,60 +7,103 @@
     z-index: 2;
     margin: 0 10%;
 }
-.title{
+
+.title {
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
     color: #fff;
+    transition: color 0.3s ease;
 }
-.menu{
+
+.title:hover {
+    color: #a8dadc;
+}
+
+.menu {
     display: flex;
+    align-items: center;
 }
-.menuBtn{
+
+.menuBtn {
     display: none;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
 }
-.menuitems{
+
+.menuBtn:hover {
+    transform: scale(1.1);
+}
+
+.menuitems {
     display: flex;
     gap: 47px;
     list-style: none;
-}
-.menuitems a{
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
-@media screen and (max-width: 830px){
-    .navbar{
+.menuitems a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.menuitems a:hover {
+    color: #f1faee;
+}
+
+@media screen and (max-width: 830px) {
+    .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding-top: 40px;
     }
-    .menu{
+
+    .menu {
         position: absolute;
-        right: 0;
-        margin-right: 3%;
+        top: 10px;
+        right: 3%;
         flex-direction: column;
         align-items: flex-end;
         gap: 11px;
         z-index: 3;
     }
-    .menuBtn{
+
+    .menuBtn {
         display: block;
-        cursor: pointer;
     }
-    .menuitems{
+
+    .menuitems {
         display: none;
         flex-direction: column;
         align-items: center;
-        gap: 13px;
-        border-radius: 8px;
-        background: rgb(25, 55, 109);
-        background: linear-gradient(0deg, rgba(25,55,109,0.2) 0%, rgba(25,55,109,1) 100%);
+        gap: 16px;
+        border-radius: 12px;
+        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
         padding: 24px 33px;
-        box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+        animation: fadeIn 0.3s ease-in-out;
     }
-    .menuOpen{
+
+    .menuitems.menuOpen {
         display: flex;
         z-index: 1;
+    }
+}
+
+/* Optional animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
