@@ -12,7 +12,7 @@ export const Contact = () => {
                 </div>
                 <div className="contactLinks">
                     <a
-                        href="mailto:contactsoni2001@gmail.com"
+                        href="mailto:soniristabehera1@gmail.com"
                         className="contactItem"
                         target="_blank"
                         rel="noopener noreferrer"
